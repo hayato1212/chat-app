@@ -24,6 +24,7 @@
         .user-name a{
           font-size: 16px;
           color: #fafafa;
+          text-decoration: none;
         }
 
       .chat-link{
@@ -34,7 +35,9 @@
         .chat-link a{
           font-size: 10px;
           color: deepskyblue;
+          padding: 14px;
           border: 1px solid lightblue;
+          text-decoration: none;
         }
 
     .main-bar{
@@ -51,6 +54,7 @@
 
       .room-name a{
         color: white;
+        text-decoration: none;
       }
 
   .chat{
