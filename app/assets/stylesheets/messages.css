@@ -12,14 +12,40 @@
       width: 300px;
       background-color: #253141;
       padding: 0 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
     }
+
+      .user-name{
+        font-size: 16px;
+        color: #fafafa;
+      position: absolute;
+      left: 20px;
+      }
+
+      .chat-link{
+        font-size: 10px;
+        color: deepskyblue;
+        position: absolute;
+        right: 34px;
+        padding: 14px;
+        border: 1px solid lightblue;
+      }
 
     .main-bar{
       height: calc(100% - 100px);
       width: 100%;
       background-color: #2f3e51;
       padding: 0 20px;
+      overflow: scroll;
     }
+
+      .chat-room{
+        color: white;
+        padding: 20px 0 40px;
+      }
 
   .chat{
     width: calc(100% - 300px);
