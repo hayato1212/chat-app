@@ -120,44 +120,44 @@
       }
 
     .bottom-chat{
+      background-color: #DDDDDD;
       height: 90px;
-      width: 100%;
-      background-color: #dddddd;
       padding: 20px 40px;
       display: flex;
     }
       .forms{
-        width: 100%;
-        display: flex;
-        margin: 0 15px 0 0;
         background-color: white;
-        text-align: center;
+        display: flex;
+        width: 100%;
       }
 
       .form-message{
+        border: none;
         height: 50px;
         width: 100%;
-        border: none;
-        padding: 0 0 0 10px;
-      }
-
-      .form-image{
-        font-size: 12px;
-        background-color: lightblue;
-        color: white;
-        width: 60px;
-        padding: 12px;
-        margin: 5px 10px;
-      }
-
-      .hidden{
-        display: none;
+        padding-left: 10px;
       }
 
       .form-submit{
-        font-size: 16px;
+        background-color: #38AEF0;
+        border: none;
         color: white;
-        background-color: #38aef0;
+        font-size: 16px;
         height: 50px;
+        margin-left: 15px;
         padding: 0 20px;
+      }
+
+      .form-image {
+        font-size: 12px;
+        background-color: lightblue;
+        color: white;
+        padding: 12px;
+        width: 60px;
+        margin: 5px 10px;
+        text-align: center;
+      }
+      
+      .hidden {
+        display: none;
       }
